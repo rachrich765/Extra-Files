@@ -10,7 +10,6 @@ body, html {
   height: 100%;
   margin: 0;
 }
-
 .hero-image {
   background-image: url("https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/22383956_1680525772021373_1815543902945008689_o.jpg?oh=ffa5210e2cc759f1950817bdb1502d92&oe=5A772968");
   height: 53%;
@@ -19,7 +18,6 @@ body, html {
   background-size: cover;
   position: relative;
 }
-
 .hero-text {
   text-align: center;
   position: absolute;
@@ -28,7 +26,6 @@ body, html {
   transform: translate(-50%, -50%);
   color: yellow;
 }
-
 .hero-text button {
   border: none;
   outline: 0;
@@ -39,7 +36,6 @@ body, html {
   text-align: center;
   cursor: pointer;
 }
-
 .hero-text button:hover {
   background-color: #555;
   color: white;
@@ -49,7 +45,7 @@ body, html {
 <div class="hero-image">
   <div class="hero-text">
     <h1><font face="cambria" color="yellow">RachRichFromThe616</font></h1>
-    <h2><strong><font face="cambria" color="lightblue">The Internet home of Rachel Richardson from Grand Rapids, MI</strong></font></h2>
+    <h2><strong><font face="cambria" color="lightblue">Welcome to the virtual home of Rachel Richardson from Grand Rapids, MI</strong></font></h2>
     <p><strong><font face="cambria" color="yellow">Scroll down for full bio or click below<strong></font></p>
       &nbsp;
       &nbsp;
@@ -69,102 +65,107 @@ body, html {
       &nbsp;
       &nbsp;
 
-      <input type="button" value="Page 2: Advice for MI Daily's WebTeam" onclick="window.location.href='file:///C:/Users/Rachel/Desktop/Extra-Files/website_pg_2.html'" />
-      <input type="button" value="Page 3: Web Design Shenanigans" onclick="window.location.href='file:///C:/Users/Rachel/Desktop/Extra-Files/website_pg_3.html'" />
+      <input type="button" value="Page 2: Advice for MI Daily's WebTeam" onclick="window.location.href='file:///C:/Users/Rachel/Desktop/tmd_web_app_f17/website_pg_2.html'" />
+      <input type="button" value="Page 3: Web Design Shenanigans" onclick="window.location.href='file:///C:/Users/Rachel/Desktop/tmd_web_app_f17/website_pg_3.html'" />
     </div>
   </div>
-  <style type="text/css">
-  .img-wrap, h1{
-    text-align: center;
+
+<style type="text/css">
+.img-wrap, h1{
+  text-align: center;
+}
+.img-wrap a img{
+  display:block;
+}
+.img-wrap > a{
+  display:inline-block;
+  vertical-align: middle;
+  border: 1px solid #555
+}
+</style>
+
+<body>
+  <div id="content">>
+    <div class="img-wrap">
+<h1><strong><font face="impact" color="purple" size = "7"> Introduction</font><strong></h1>
+  <p><strong><font face="cambria" color="blue"> <a href="https://www.youtube.com/watch?v=ep1ilHpTvSM">Ayo I once was a kid, all I had was a dream,</a> but now I have my own website so that's pretty cool. My name is Rachel Richardson and while I was born in Techumseh, MI (near Ann Arbor), the place I have come to call home is Grand Rapids. I am a junior at the University of Michigan pursuing a BSI with a focus in Information Analysis, and I am also minoring in Spanish. Below you will get to see pictures of my adorable 4-year-old puppy Maya, my 17-year-old cat Sydney, my family (immediate and extended), and the friends who have stuck with me through it all. I have also provided some insight into my cultural favorites.</font><strong></p>
+    <h1><strong><font face="impact" color="purple" size = "7"> 6 quick tidbits about the chick from the 616</font><strong></h1>
+      <h1><font face="cambria" color="lightgreen">1. Age</font></h1>
+      <p><strong><font color="blue" size="4"> Countdown until my 21st birtday (November 25th, 2017), which is my first ever free cover night at <a href="http://ricksamericancafe.com/home-ann-arbor/">Ricks:</a></strong></font></p>
+        <p id="demo"></p>
+        <script>
+        var countDownDate = new Date("Nov 25, 2017 04:09:00").getTime();
+        var x = setInterval(function() {
+          var now = new Date().getTime();
+          var distance = countDownDate - now;
+          var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+          var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+          var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+          var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+          document.getElementById("demo").innerHTML = days + "d " + hours + "h "
+          + minutes + "m " + seconds + "s ";
+          if (distance < 0) {
+            clearInterval(x);
+            document.getElementById("demo").innerHTML = "EXPIRED";
+          }
+        }, 1000);
+        </script>
+      </div>
+    </div>
+
+<div class="img-wrap">
+  <h1><font face="cambria" color="lightgreen">2. Family & Friends</font></h1>
+  <div class="img-wrap">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/22256449_1675261672547783_475806329131281314_o.jpg?oh=3b00cfbc75ce68b17fc42cc3b1329ff9&oe=5A4925A3"
+    style="width:40%" "height: 40%">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/22308959_1675290045878279_3987160683276213403_n.jpg?oh=6959053dc072178ed527a45d42e2bb2a&oe=5A3BFE31"
+    style="width:20%" "height: 20%">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/22339141_1675232529217364_8898447684867611153_o.jpg?oh=8afb847949eeeefc34a3f1c80de1b8b9&oe=5A885DB6"
+    style="width:40%" "height:40%">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/21544152_10214205776557253_3171664543136606399_o.jpg?oh=249540a432fc0d1aef76042bd65e5a3f&oe=5A3BF882"
+    style="width:50%" "height: 50%">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/22308547_1675274945879789_7518838853917748649_n.jpg?oh=0ab1bde621c34785a190215c47bd1e2d&oe=5A3A0DCE"
+    style="width:30%" "height: 30%">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/22228244_1675275452546405_3728384438177413164_n.jpg?oh=b3742180b6ba88a47d42d0d3a7bda63d&oe=5A3AED47"
+    style="width:30%""height: 30%">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/22195802_1675277529212864_6386547054626475445_n.jpg?oh=f97577f739c194eb7d0d260c1b4c83fa&oe=5A44F709"
+    style="width:20%" "height: 20%">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/22281763_1675279319212685_7667333298563624690_n.jpg?oh=ecb1cd9be40073103cc9871ca062a95a&oe=5A7E6F9C"
+    style="width:30%""height: 30%">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/22218391_1675282459212371_6700106233012393079_o.jpg?oh=61fa07875f25fec7c79adbdf08aeb973&oe=5A810508"
+    style="width:40%" "height: 40%">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/22219935_1675283949212222_545259218238514411_o.jpg?oh=cfcdd6dc394734f2b88bf852848a396f&oe=5A7C7143"
+    style="width:40%" "height: 40%">
+    <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/13497981_1111424058931550_5062383660877158244_o.jpg?oh=059449ed750c99b1763f08450a364143&oe=5A84C29F"
+    style="width:40%" "height: 40%">
+  </div>
+  &nbsp;
+
+<script>
+var myIndex = 0;
+carousel();
+function carousel() {
+  var i;
+  var x = document.getElementsByClassName("Me");
+  for (i = 0; i < x.length; i++) {
+    x[i].style.display = "none";
   }
-
-  .img-wrap a img{
-    display:block;
-  }
-
-  .img-wrap > a{
-    display:inline-block;
-    vertical-align: middle;
-    border: 1px solid #555
-  }
-
-  </style>
-  <body>
-    <div id="content">>
-      <div class="img-wrap">
-        <h1><strong><font face="impact" color="purple"> 6 quick tidbits about the chick from the 616</font><strong></h1>
-          <h1><font face="cambria" color="lightgreen">1. Age</font></h1>
-          <p> <font color="black"> Countdown until November 25th, my 21st birthday, but more importantly, my first ever free cover night at <a href="http://ricksamericancafe.com/home-ann-arbor/">Ricks:</a></font></p>
-          <p id="demo"></p>
-          <script>
-          var countDownDate = new Date("Nov 25, 2017 04:09:00").getTime();
-          var x = setInterval(function() {
-            var now = new Date().getTime();
-            var distance = countDownDate - now;
-            var days = Math.floor(distance / (1000 * 60 * 60 * 24));
-            var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
-            var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
-            var seconds = Math.floor((distance % (1000 * 60)) / 1000);
-            document.getElementById("demo").innerHTML = days + "d " + hours + "h "
-            + minutes + "m " + seconds + "s ";
-            if (distance < 0) {
-              clearInterval(x);
-              document.getElementById("demo").innerHTML = "EXPIRED";
-            }
-          }, 1000);
-          </script>
-
-          <div class="img-wrap">
-            <h1><font face="cambria" color="lightgreen">2. Family & Friends</font></h1>
-            <div class="img-wrap">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/22256449_1675261672547783_475806329131281314_o.jpg?oh=3b00cfbc75ce68b17fc42cc3b1329ff9&oe=5A4925A3"
-              style="width:40%" "height: 40%">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/22308959_1675290045878279_3987160683276213403_n.jpg?oh=6959053dc072178ed527a45d42e2bb2a&oe=5A3BFE31"
-              style="width:20%" "height: 20%">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/22339141_1675232529217364_8898447684867611153_o.jpg?oh=8afb847949eeeefc34a3f1c80de1b8b9&oe=5A885DB6"
-              style="width:40%" "height:40%">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/21544152_10214205776557253_3171664543136606399_o.jpg?oh=249540a432fc0d1aef76042bd65e5a3f&oe=5A3BF882"
-              style="width:50%" "height: 50%">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/22308547_1675274945879789_7518838853917748649_n.jpg?oh=0ab1bde621c34785a190215c47bd1e2d&oe=5A3A0DCE"
-              style="width:30%" "height: 30%">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/22228244_1675275452546405_3728384438177413164_n.jpg?oh=b3742180b6ba88a47d42d0d3a7bda63d&oe=5A3AED47"
-              style="width:30%""height: 30%">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/22195802_1675277529212864_6386547054626475445_n.jpg?oh=f97577f739c194eb7d0d260c1b4c83fa&oe=5A44F709"
-              style="width:20%" "height: 20%">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t1.0-9/22281763_1675279319212685_7667333298563624690_n.jpg?oh=ecb1cd9be40073103cc9871ca062a95a&oe=5A7E6F9C"
-              style="width:30%""height: 30%">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/22218391_1675282459212371_6700106233012393079_o.jpg?oh=61fa07875f25fec7c79adbdf08aeb973&oe=5A810508"
-              style="width:40%" "height: 40%">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/22219935_1675283949212222_545259218238514411_o.jpg?oh=cfcdd6dc394734f2b88bf852848a396f&oe=5A7C7143"
-              style="width:40%" "height: 40%">
-              <img class="Me" src="https://scontent.fdet1-2.fna.fbcdn.net/v/t31.0-8/13497981_1111424058931550_5062383660877158244_o.jpg?oh=059449ed750c99b1763f08450a364143&oe=5A84C29F"
-              style="width:40%" "height: 40%">
-            </div>
-            &nbsp;
-            <script>
-            var myIndex = 0;
-            carousel();
-            function carousel() {
-              var i;
-              var x = document.getElementsByClassName("Me");
-              for (i = 0; i < x.length; i++) {
-                x[i].style.display = "none";
-              }
-              myIndex++;
-              if (myIndex > x.length) {myIndex = 1}
-              x[myIndex-1].style.display = "block";
-              setTimeout(carousel, 2700);
-            }
-            </script>
+  myIndex++;
+  if (myIndex > x.length) {myIndex = 1}
+  x[myIndex-1].style.display = "block";
+  setTimeout(carousel, 2700);
+}
+</script>
 
 <h1><font face="cambria" color="lightgreen">3. Musical Mayhem</font></h1>
-<h2><font face = "cambria" color= "lightblue"> G-Eazy & Hoodie Allen</font></h2>
-<img src="https://www.capitalcitytickets.com/content/uploaded/G-Easy.jpg"
-style="float: left; width: 41%; height: 58%; margin-right: 1%; margin-bottom: 0.5em;">>
-<img src="http://duclarion.com/wp-content/uploads/MG_7851.jpg"
-style="float: right; width: 50%; height: 40%; margin-right: 1%; margin-bottom: 0.5em;">>
-<p style="clear: both;">
-  &nbsp;
+<h3 style="text-align: left; width:39%; display: inline-block;"><font color = "lightblue" size = "5">G-Eazy</font></h2>
+  <h3 style="text-align: right; width:25%;  display: inline-block;"><font color = "lightblue" size = "5">Hoodie Allen</font></h2>
+    <img src="https://www.capitalcitytickets.com/content/uploaded/G-Easy.jpg"
+    style="float: left; width: 41%; height: 58%; margin-right: 1%; margin-bottom: 0.5em;">
+    <img src="http://duclarion.com/wp-content/uploads/MG_7851.jpg"
+    style="float: right; width: 50%; height: 40%; margin-right: 1%; margin-bottom: 0.5em;">
+    <p style="clear: both;">
+      &nbsp;
 
 <h1><font face="cambria" color="lightgreen">4. Opinon of Bryzzo (and all the Chicago Cubs for that matter)</font></h1>
 <img src="http://www.mlb.com/images/9/0/6/221707906/033117_gif_chc_bryzzo_shrug_thumbsup_med_khc5ov79.gif"
@@ -174,21 +175,21 @@ style="width:40%" "height: 40%">
 
 <h1><font face="cambria" color="lightgreen">5. Netflix Necessities</font></h1>
 <img src="http://is5.mzstatic.com/image/thumb/Music6/v4/53/61/bb/5361bb7e-e838-5fcb-2fe2-2f3d3cdf3c0b/source/1200x630bb.jpg"
-style="float: left; width: 27%; height: 30%; margin-right: 1%; margin-bottom: 0.5em;">>
+style="float: left; width: 27%; height: 30%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="http://vignette3.wikia.nocookie.net/itsalwayssunny/images/7/72/The_Gang_%282%29.jpg/revision/latest?cb=20110812033712"
-style="float: middle; width:36%; height: 55%; margin-right: 1%; margin-bottom: 0.5em;">>
+style="float: middle; width:36%; height: 55%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="https://pbs.twimg.com/profile_images/734141362031984640/2I-QZZkR.jpg"
-style="float: right; width: 27%; height: 45%; margin-right: 1%; margin-bottom: 0.5em;">>
+style="float: right; width: 27%; height: 45%; margin-right: 1%; margin-bottom: 0.5em;">
 <p style="clear: both;">
   &nbsp;
 
 <h1><font face="cambria" color="lightgreen">6. Food Favorites</font></h1>
 <img src="http://pulseradio.fm/wp-content/uploads/2016/04/jimmy.jpg"
-style="float: left; width: 30%; height: 50%; margin-right: 1%; margin-bottom: 0.5em;">>
+style="float: left; width: 30%; height: 50%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="http://s.thestreet.com/files/tsc/v2008/photos/contrib/uploads/buffalo-wild-wings-outside-3.jpg"
-style="float: middle; width: 30%; height: 50%; margin-right: 1%; margin-bottom: 0.5em;">>
+style="float: middle; width: 30%; height: 50%; margin-right: 1%; margin-bottom: 0.5em;">
 <img src="https://static1.squarespace.com/static/56f09028859fd0866e8799cc/t/574fca51746fb9ccc2322f83/1464846966667/Gioradano%27s+Deep+Dish+Pizza+-+Chicago+Travel+Guide+-+Let%27s+Go+Bravo"
-style="float: right; width: 30%; height: 50%; margin-right: 1%; margin-bottom: 0.5em;">>"
+style="float: right; width: 30%; height: 50%; margin-right: 1%; margin-bottom: 0.5em;">
 <p style="clear: both;">
   &nbsp;
 </body>
